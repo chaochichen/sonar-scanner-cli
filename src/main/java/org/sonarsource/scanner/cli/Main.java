@@ -59,6 +59,7 @@ public class Main {
     Cli cli = new Cli(exit, logs).parse(args);
     Main main = new Main(exit, cli, new Conf(cli, logs, System.getenv()), new ScannerFactory(logs), logs);
     main.execute();
+    // probably no coverage here ;-)
   }
 
   void execute() {
