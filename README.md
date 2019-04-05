@@ -5,6 +5,8 @@ SonarQube Scanner
 
 Official SonarQube Scanner used to start code analysis. Project configuration is read from a sonar-project.properties or passed on command line.
 
+This fork adds glob expansion to some of the config settings such as sonar.jacoco.reportPaths, sonar.scala.coverage.reportPaths
+
 Documentation:
 http://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner
 
